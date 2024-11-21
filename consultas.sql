@@ -14,6 +14,7 @@ WHERE Autores.nome LIKE '%XXX%';
 
 UPDATE Edicao
 SET quant_estoque = quant_estoque * 1.2
+
 WHERE editora_cod_editora = [ID_DA_EDITORA];
 
 
