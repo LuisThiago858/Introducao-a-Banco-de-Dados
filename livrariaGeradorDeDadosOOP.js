@@ -11,6 +11,8 @@ const connection = mysql.createConnection({
     database: process.env.DB_NAME
 });
 // Conectar ao banco de dados
+
+//teste
 connection.connect((err) => {
     if (err) {
         console.error('Erro ao conectar: ', err);
